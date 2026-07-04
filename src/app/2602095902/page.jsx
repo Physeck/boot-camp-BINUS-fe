@@ -1,4 +1,6 @@
-import React, { useState, useEffect, useRef, useMemo } from "react";
+/*
+'use client'
+import { useState, useEffect, useRef, useMemo } from "react";
 
 const MyPage = () => {
     const NIM = "2602095902";
@@ -26,3 +28,12 @@ const MyPage = () => {
 }
 
 export default MyPage;
+
+ */
+
+// src/app/2602095902/details/page.jsx
+import HomePage from "../../../views/2602095902/app";
+
+export default function Page() {
+    return <HomePage />;
+}
