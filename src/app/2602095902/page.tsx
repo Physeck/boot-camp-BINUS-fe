@@ -32,9 +32,16 @@ export default MyPage;
  */
 
 // src/app/2602095902/details/page.jsx
-import HomePage from "../../../views/2602095902/app"; //Pokemon Sesi7
-import PostsPage from "./assignment/09/2602095902/posts/page"; //Firebase Sesi8 
+'use client'
+
+import HomePage from "../../../views/2602095902/app"; //Pokemon Sesi8
+import PostsPage from "./assignment/09/2602095902/posts/page"; //Firebase Sesi9
+import MainPage from "./assignment/10/2602095902/index"; //Sesi10
 
 export default function Page() {
-    return <PostsPage />;
+    return (
+        <main>
+            <MainPage />;
+        </main>
+    )
 }
