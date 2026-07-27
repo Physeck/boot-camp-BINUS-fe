@@ -36,12 +36,13 @@ export default MyPage;
 
 import HomePage from "../../../views/2602095902/app"; //Pokemon Sesi8
 import PostsPage from "./assignment/09/2602095902/posts/page"; //Firebase Sesi9
-import MainPage from "./assignment/10/2602095902/index"; //Sesi10
+// import MainPage from "./assignment/10/2602095902/index"; //Sesi 10
+import MainPage from "./assignment/11/2602095902/index"; //Sesi 11
 
 export default function Page() {
     return (
         <main>
-            <MainPage />;
+            <MainPage />
         </main>
     )
 }
